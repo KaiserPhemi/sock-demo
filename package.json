@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "express": "^4.17.0",
+    "nodemon": "^1.19.0",
+    "socketio": "^1.0.0"
+  },
+  "name": "sock-demo",
+  "version": "1.0.0",
+  "description": "just a demo on socket api",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "start": "pm2 start --interpreter babel-node index.js",
+    "test": "mocha"
+  },
+  "author": "oluwafemi akinwa",
+  "license": "MIT"
+}
